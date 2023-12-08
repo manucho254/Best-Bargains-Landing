@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(15, 14, 14);
+  color: green !important;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -61,7 +61,7 @@ section {
   color: white !important;
 }
 
-.logo {
+.site-logo {
   color: black;
   font-size: 35px;
   padding: 0px 20px;
@@ -79,13 +79,13 @@ section .headline p {
   color: rgb(111, 110, 110);
 }
 
-section .headline p .logo {
+.logo {
   font-size: 20px;
   color: green;
   padding: 0;
 }
 
-section .headline p .logo span {
+.logo span {
   color: rgb(8, 8, 8);
 }
 
@@ -110,5 +110,90 @@ section .headline img {
 }
 
 .section-header {
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 4px solid green;
+}
+
+.feature {
+  background-color: rgb(246, 246, 246) !important;
+  color: rgb(42, 40, 40);
+  border: none !important;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature i {
+  color: rgb(63, 121, 63);
+}
+
+.feature img {
+  height: 200px;
+}
+
+.feature .feature-header {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about-text {
+  margin-top: 40px;
   font-size: 20px;
+  padding-bottom: 40px;
+}
+
+#about {
+  height: auto;
+}
+
+#team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#team .team-header {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid green;
+  width: 100px;
+}
+
+#team .team-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team .team-content a {
+  color: black;
+}
+
+#team .team-content .team-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.go-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  margin-right: 50px;
+  text-decoration: none;
+  color: green;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.site-message {
+  width: 90%;
+  text-overflow: ellipsis;
+  font-size: 15px;
 }
